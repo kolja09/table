@@ -1,0 +1,29 @@
+.paginationButton {
+  padding: 7px 9px;
+  cursor: pointer;
+  border: 1px solid #f0f0f0;
+  background-color: transparent;
+  transition: background-color 0.3s ease;
+}
+
+.paginationButton:hover {
+  background-color: #f0f0f0;
+  color: black;
+}
+
+.paginationButton.active {
+  background-color: #f0f0f0;
+  color: black;
+}
+
+.paginationButton:disabled {
+  color: #999;
+  cursor: not-allowed;
+}
+
+.paginationEllipsis {
+  padding: 7px 9px;
+  display: inline-block;
+  user-select: none;
+  text-align: center;
+}

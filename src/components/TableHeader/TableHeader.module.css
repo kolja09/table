@@ -1,0 +1,24 @@
+.tableHeader {
+  display: grid;
+  font-weight: bold;
+  gap: 8px;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.sortingArrow {
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.tableHeader {
+  border-bottom: 1px solid gray;
+}
+
+.tableHeaderCell {
+  border-right: 1px solid gray;
+  padding: 12px 8px;
+}
+
+.tableHeaderCell:last-child {
+  border-right: none;
+}

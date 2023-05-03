@@ -1,0 +1,30 @@
+.tableRow {
+  border-bottom: 1px solid gray;
+}
+
+.tableRow {
+  display: grid;
+  gap: 8px;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.tableCell {
+  display: flex;
+  align-items: center;
+  border-right: 1px solid gray;
+  padding: 12px 8px;
+}
+
+.tableCell:last-child {
+  border-right: none;
+}
+
+.actionButton {
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.noDataMessage {
+  font-size: 24px;
+  font-weight: bold;
+}

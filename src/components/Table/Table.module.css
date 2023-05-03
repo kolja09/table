@@ -1,0 +1,7 @@
+.table {
+  display: grid;
+  width: 100%;
+  grid-gap: 0;
+  border-collapse: collapse;
+  border: 1px solid grey;
+}
