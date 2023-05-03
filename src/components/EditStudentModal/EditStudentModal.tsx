@@ -9,6 +9,7 @@ import {
   Divider,
   Content,
   ButtonGroup,
+  View,
 } from "@adobe/react-spectrum";
 
 import styles from "./EditStudentModal.module.css";
@@ -26,9 +27,9 @@ const EditStudentModal = ({
   };
 
   return (
-    <div className={styles.modalWrapper}>
-      <div className={styles.modalOverlay} />
-      <div className={styles.modal}>
+    <View UNSAFE_className={styles.modalWrapper}>
+      <View UNSAFE_className={styles.modalOverlay} />
+      <View UNSAFE_className={styles.modal}>
         <Dialog>
           <Heading>Edit Student</Heading>
           <Divider />
@@ -80,8 +81,8 @@ const EditStudentModal = ({
             </Button>
           </ButtonGroup>
         </Dialog>
-      </div>
-    </div>
+      </View>
+    </View>
   );
 };
 
